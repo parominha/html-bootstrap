@@ -4,10 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Protótipo responsivo</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <style>
     div {
+      border: 1px solid red;
+    }
+
+    article {
       border: 1px solid red;
     }
   </style>
@@ -24,26 +28,31 @@
     </div>
   </header>
 
-  <section>
-    <div class="container">
-      <article class="row">
-        <div class="col-12">Banner</div>
-      </article>
-      <article class="row">
-        <div class="col-md-6 col-12">Artigo 1</div>
-        <div class="col-md-6 col-12">Artigo 2</div>
-      </article>
-      <article class="row">
-        <div class="col-md-6 col-12">Artigo 3</div>
-        <div class="col-md-6 col-12">Artigo 4</div>
-      </article>
-      <article class="row">
-        <div class="col-md-6 col-12">Artigo 5</div>
-        <div class="col-md-6 col-12">Artigo 6</div>
-        <div class="col-md-6 col-12">Artigo 7</div>
-        <div class="col-md-6 col-12">Artigo 8</div>
-      </article>
-  </section>
+
+  <div class="container">
+
+    <section class="row">
+      <article class="col-12">Banner</article>
+    </section>
+
+    <section class="row">
+      <article class="col-md-6 col-12">Artigo 1</article>
+      <article class="col-md-6 col-12">Artigo 2</article>
+    </section>
+
+    <section class="row">
+      <article class="col-md-6 col-12">Artigo 3</article>
+      <article class="col-md-6 col-12">Artigo 4</article>
+    </section>
+
+    <section class="row">
+      <article class="col-md-6 col-12">Artigo 5</article>
+      <article class="col-md-6 col-12">Artigo 6</article>
+      <article class="col-md-6 col-12">Artigo 7</article>
+      <article class="col-md-6 col-12">Artigo 8</article>
+    </section>
+
+  </div>
 
   <footer>
     <div class="container">
@@ -57,7 +66,6 @@
     </div>
   </footer>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
